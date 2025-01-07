@@ -28,6 +28,7 @@ footer {
 	font-weight: 600;
 	line-height: 36px;
 	color: #222;
+	text-align: center;
 }
 
 
@@ -49,19 +50,20 @@ footer {
 }
 .tbl_publist thead th {
 	padding:10px 0; 
-	font-size:13px; 
+	font-size:14px; 
 	font-weight:600; 
 	color:#222;
 }
 .tbl_publist tbody th {
-	padding:3px 18px; 
-	font-size:13px; 
+	padding:6px 18px; 
+	font-size:14px; 
 	text-align:center;
 }
 .tbl_publist tbody td {
-	padding:3px 12px; 
-	font-size:12px; 
+	padding:6px 12px; 
+	font-size:14px; 
 	font-weight:400;
+	color: #555;
 	border-bottom:1px solid #eee;
 	border-left:1px solid #eee;
 }
@@ -70,9 +72,8 @@ footer {
 .tbl_publist tbody .hover {background:#eee;}
 .tbl_publist tbody td.alignC {text-align:center;}
 .tbl_publist tbody td a,
-.tbl_publist tbody td .txt_link {color:#555;}
+.tbl_publist tbody td .txt_link {color:#000;}
 .tbl_publist tbody td a:hover {
 	text-decoration:underline; 
 	color:#222;
 }
-.tbl_publist tbody td a.co {display:none;}
