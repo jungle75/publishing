@@ -4,8 +4,22 @@
 * {padding:0; margin:0;}
 html, body {width:100%; height:100%;}
 
+footer {
+	position: fixed; 
+	bottom: 0; 
+	width: 100%; 
+	font-size: 13px; 
+	color: #999; 
+	text-align: center; 
+	background-color: white; 
+	padding: 8px 0;
+}
+
 /** LAYOUT **/
-.uiwrap {padding:30px; box-sizing:border-box;}
+.uiwrap {
+	padding:30px 30px 60px 30px; 
+	box-sizing:border-box;
+}
 
 .uiwrap h2.title_top {
 	position: relative;
@@ -18,17 +32,47 @@ html, body {width:100%; height:100%;}
 
 
 /** 퍼블리싱 리스트 **/
-.tbl_publist {position:relative; border-top:1px solid #222;}
-.tbl_publist table {table-layout:fixed; width:100%;	border-collapse: collapse; border-spacing: 0;}
-.tbl_publist th {font-weight:normal; border-bottom:1px solid #eee; background:#f9f9f9;}
-.tbl_publist thead th {padding:10px 0; font-size:13px; font-weight:600; color:#222;}
-.tbl_publist tbody th {padding:3px 18px; font-size:13px; text-align:center;}
-.tbl_publist tbody td {padding:3px 12px; font-size:12px; font-weight:400; border-bottom:1px solid #eee; border-left:1px solid #eee;}
-.tbl_publist tbody td:hover {background:#eee;}
+.tbl_publist {
+	position:relative; 
+	border-top:1px solid #222;
+}
+.tbl_publist table {
+	table-layout:fixed; 
+	width:100%;	
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+.tbl_publist th {
+	font-weight:normal; 
+	border-bottom:1px solid #eee; 
+	background:#f9f9f9;
+}
+.tbl_publist thead th {
+	padding:10px 0; 
+	font-size:13px; 
+	font-weight:600; 
+	color:#222;
+}
+.tbl_publist tbody th {
+	padding:3px 18px; 
+	font-size:13px; 
+	text-align:center;
+}
+.tbl_publist tbody td {
+	padding:3px 12px; 
+	font-size:12px; 
+	font-weight:400;
+	border-bottom:1px solid #eee;
+	border-left:1px solid #eee;
+}
+.tbl_publist tbody td:hover {background:#f9f9f9;}
 .tbl_publist tbody .cancel {text-decoration:line-through;}
 .tbl_publist tbody .hover {background:#eee;}
 .tbl_publist tbody td.alignC {text-align:center;}
 .tbl_publist tbody td a,
 .tbl_publist tbody td .txt_link {color:#555;}
-.tbl_publist tbody td a:hover {text-decoration:underline; color:#222;}
+.tbl_publist tbody td a:hover {
+	text-decoration:underline; 
+	color:#222;
+}
 .tbl_publist tbody td a.co {display:none;}
